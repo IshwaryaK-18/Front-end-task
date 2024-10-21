@@ -1,0 +1,47 @@
+.box{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    transition-duration: 2s;
+    transition-property:all; /*background-color: blue */
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);/*transition speed */
+    transition-delay: 3s;/*delay for specific time*/
+}
+.box{
+    background-color: bisque
+    width: 200px;
+
+}
+.box:hover{
+    background-color: bisque
+    width: 200px;
+    transform:scale(25deg);
+    transform:translate(20px);
+}
+/* .animation{
+    background-color: thistle;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: both;
+     animation-iteration-count: 5; /*timing for the animation-duration */
+    
+    /* animation: name duration timing function delay iteration-count direction fill-mode; */
+    animation-name: circle;
+}
+@keyframes circles {
+    50%{
+        background-color:rgba(23,45,67,90);
+        width: 200px;
+        left:10px;
+        top:0;
+    }
+    100%{
+        background-color:blue;
+        width: 200px;
+        left:10px;
+        top:0;
+        }
+    } */

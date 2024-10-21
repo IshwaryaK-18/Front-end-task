@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=0.1">
+    <title>media  query</title>
+    <link rel="stylesheet" href="media.css">
+    <style>
+        h1{
+            color:rgb(17, 14, 188);
+        }
+         @media screen and (max-width:800px) {
+            h1{
+                color:bisque;
+            }
+        }
+        @media screen and (max-width:700px) {
+            h1{
+               color: rgb(3,85,50);
+            }
+        }
+        @media screen and (max-width:400px) {
+            h1{
+                color: rgb(90,35,230);
+            }
+        } 
+        .container{
+           background-color: blueviolet;
+            height: 100px;
+        }
+        @media screen and (max-width:300px){
+
+            .container{
+                background-color: brown;
+                height:100px;
+            }
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Media query</h1>
+    <div class="container"></div>
+</body>
+    </html>
+
+ 
